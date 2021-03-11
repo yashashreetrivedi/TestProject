@@ -1,5 +1,3 @@
-
-
 <div class="container">
   <div >
     <div class="row g-0">
@@ -19,7 +17,7 @@
                     <input name="code"  #code ="ngModel"  [(ngModel)]="service.formData.code" class="input" (focus)="showError=false" >
                     <button class="btnColor btn" id="basic-addon2">Verify</button>
                   </div>
-                  <p  *ngIf ="showError" class="errorMessage">{{items}}</p>
+                  <p  *ngIf ="showError" class="errorMessage">{{errorMessage}}</p>
                   <label class="cancel" (click)="resetForm(form)">Cancel</label>      
             </div>
           </form>
@@ -29,6 +27,10 @@
     </div>
   </div>
 </div>
+
+
+
+
 
 
   

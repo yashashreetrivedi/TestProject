@@ -1,28 +1,21 @@
 
-
-
-  .container
-{
-    position: absolute;
-    
+    .container {
+    position: relative;
     top: 40%;
     height: 400px;
     width:  800Px;
-    margin-top: -100px ; 
-    margin-left: 265px ; 
-    background-color: lightgray;
-    
+    margin-top: 200px ; 
+    /* margin-left: 265px ;  */ 
+    text-align:center
+    /* background-color: lightgray;  */
 } 
+
 .para {
    margin-top: 10%;
+   text-align:left;
 }
-/* .card {
-    height: 300px;
-    width: 550px;
-    background-color:lightgray
-} */
-
-.errorMessage {
+ 
+ .errorMessage {
     color: red;
 } 
 
@@ -50,4 +43,5 @@
     width: 60%;
     border-width:0px;
     border:none;
-}
+} 
+
