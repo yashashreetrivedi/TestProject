@@ -11,7 +11,7 @@
 
  # Clone the repo
  Open the terminal on your computer and copy the command below:
- git clone `https://github.com/yashashreetrivedi/TestProject.git`
+ git clone https://github.com/yashashreetrivedi/TestProject.git
 
 
  # Starting Application
@@ -27,7 +27,7 @@
    1. `npm install`
    2. if angular cli is not intall used tthis command `npm install -g @angular/cli`
    3. `ng serve --o`
-   4. Application will be served on `http://localhost:4200/`
+   4. Application will be served on http://localhost:4200/
    5. You can see application on http://localhost:4200/
 
 # Angular unit test
